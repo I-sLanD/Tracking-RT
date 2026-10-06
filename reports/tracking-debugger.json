@@ -1,0 +1,6 @@
+{
+  "debugger": "LLDB 23 / VS Code LLDB-DAP configuration",
+  "breakpoint": "deepsort::Tracker::step",
+  "frames": 3,
+  "continuation_exit_code": 0
+}

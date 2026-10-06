@@ -1,0 +1,31 @@
+{
+  "weights": "H:\\\u5218\u6b23\u9633\u8d44\u6599\\code\\jetson-perception-cpp\\models\\yolo26n.pt",
+  "weights_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "onnx": "H:\\\u5218\u6b23\u9633\u8d44\u6599\\code\\jetson-perception-cpp\\models\\yolo26n.onnx",
+  "onnx_sha256": "2fd3dfc3aa2b885319035ea6aefe53aa0683bfa4d5f82296b43f371017e2bce9",
+  "torch_version": "2.4.1+cpu",
+  "ultralytics_version": "8.4.173",
+  "onnx_version": "1.23.1",
+  "arguments": {
+    "format": "onnx",
+    "imgsz": 640,
+    "batch": 1,
+    "dynamic": false,
+    "simplify": false,
+    "opset": 17,
+    "nms": false,
+    "device": "cpu"
+  },
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "output_shape": [
+    1,
+    300,
+    6
+  ],
+  "output_layout": "x1,y1,x2,y2,confidence,class_id; input-image coordinates; no external NMS"
+}

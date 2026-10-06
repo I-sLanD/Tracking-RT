@@ -1,0 +1,267 @@
+[
+  {
+    "name": "anpr-demo-video.mp4",
+    "size": 9984010,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/anpr-demo-video.mp4"
+  },
+  {
+    "name": "apple-grading-counting-compressed.mp4",
+    "size": 1858535,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/apple-grading-counting-compressed.mp4"
+  },
+  {
+    "name": "apple-tracking-zone-compressed.mp4",
+    "size": 1054509,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/apple-tracking-zone-compressed.mp4"
+  },
+  {
+    "name": "basket-ball-trajectory-compressed.mp4",
+    "size": 286460,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/basket-ball-trajectory-compressed.mp4"
+  },
+  {
+    "name": "Benchpress.demo.video.mp4",
+    "size": 7757920,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Benchpress.demo.video.mp4"
+  },
+  {
+    "name": "birds-track-compressed.mp4",
+    "size": 455344,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/birds-track-compressed.mp4"
+  },
+  {
+    "name": "blur-compressed.mp4",
+    "size": 1131806,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/blur-compressed.mp4"
+  },
+  {
+    "name": "bread-counting-compressed.mp4",
+    "size": 448543,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/bread-counting-compressed.mp4"
+  },
+  {
+    "name": "Caps-counting-in-assembly-line-compressed.mp4",
+    "size": 431645,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Caps-counting-in-assembly-line-compressed.mp4"
+  },
+  {
+    "name": "carparts-segmentation-compressed.mp4",
+    "size": 471180,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/carparts-segmentation-compressed.mp4"
+  },
+  {
+    "name": "Computer-appliances-on-table-compressed.mp4",
+    "size": 734860,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Computer-appliances-on-table-compressed.mp4"
+  },
+  {
+    "name": "crack-segmentation-compressed.mp4",
+    "size": 635542,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/crack-segmentation-compressed.mp4"
+  },
+  {
+    "name": "dashboard_sample.mp4",
+    "size": 4122882,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/dashboard_sample.mp4"
+  },
+  {
+    "name": "eggs-compressed.mp4",
+    "size": 559516,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/eggs-compressed.mp4"
+  },
+  {
+    "name": "Face-detection-meetings-compressed.mp4",
+    "size": 338065,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Face-detection-meetings-compressed.mp4"
+  },
+  {
+    "name": "fire-segmentation-compressed.mp4",
+    "size": 574557,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/fire-segmentation-compressed.mp4"
+  },
+  {
+    "name": "fish-segmentation-compressed.mp4",
+    "size": 1743670,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/fish-segmentation-compressed.mp4"
+  },
+  {
+    "name": "Fish-tracking-in-water-compressed.mp4",
+    "size": 613998,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Fish-tracking-in-water-compressed.mp4"
+  },
+  {
+    "name": "fruits-on-tree-compressed.mp4",
+    "size": 828786,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/fruits-on-tree-compressed.mp4"
+  },
+  {
+    "name": "Grayscale-object-detection-compressed.mp4",
+    "size": 897706,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Grayscale-object-detection-compressed.mp4"
+  },
+  {
+    "name": "ground-vehicles-airport.mp4",
+    "size": 1140934,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/ground-vehicles-airport.mp4"
+  },
+  {
+    "name": "home-objects-compressed.mp4",
+    "size": 659537,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/home-objects-compressed.mp4"
+  },
+  {
+    "name": "Iris-and-pupil-segmentation-compressed.mp4",
+    "size": 310202,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Iris-and-pupil-segmentation-compressed.mp4"
+  },
+  {
+    "name": "kitti-inference-vid.mp4",
+    "size": 6251445,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/kitti-inference-vid.mp4"
+  },
+  {
+    "name": "Legextension.demo.video.mp4",
+    "size": 6178528,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Legextension.demo.video.mp4"
+  },
+  {
+    "name": "Legpress.demo.video.mp4",
+    "size": 8280105,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Legpress.demo.video.mp4"
+  },
+  {
+    "name": "license-plate-compressed.mp4",
+    "size": 680567,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/license-plate-compressed.mp4"
+  },
+  {
+    "name": "logistics-badge-compressed.mp4",
+    "size": 822310,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/logistics-badge-compressed.mp4"
+  },
+  {
+    "name": "manufacturing-bottles-monitoring-compressed.mp4",
+    "size": 1171380,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/manufacturing-bottles-monitoring-compressed.mp4"
+  },
+  {
+    "name": "medical-pills-compressed.mp4",
+    "size": 707504,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/medical-pills-compressed.mp4"
+  },
+  {
+    "name": "parking-management-compressed.mp4",
+    "size": 275235,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/parking-management-compressed.mp4"
+  },
+  {
+    "name": "patties-count-compressed.mp4",
+    "size": 820291,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/patties-count-compressed.mp4"
+  },
+  {
+    "name": "People-counting-compressed.mp4",
+    "size": 358219,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/People-counting-compressed.mp4"
+  },
+  {
+    "name": "plants-segmentation-compressed.mp4",
+    "size": 1109761,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/plants-segmentation-compressed.mp4"
+  },
+  {
+    "name": "plastic.detection.mp4",
+    "size": 1700078,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/plastic.detection.mp4"
+  },
+  {
+    "name": "ppe-compressed.mp4",
+    "size": 1085316,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/ppe-compressed.mp4"
+  },
+  {
+    "name": "Pushups.demo.video.mp4",
+    "size": 4174009,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Pushups.demo.video.mp4"
+  },
+  {
+    "name": "queue-management-compressed.mp4",
+    "size": 716632,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/queue-management-compressed.mp4"
+  },
+  {
+    "name": "sahi.demo.video.mp4",
+    "size": 16012499,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/sahi.demo.video.mp4"
+  },
+  {
+    "name": "sheep-segmentation-compressed.mp4",
+    "size": 1445722,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/sheep-segmentation-compressed.mp4"
+  },
+  {
+    "name": "signature-s.mp4",
+    "size": 8057136,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/signature-s.mp4"
+  },
+  {
+    "name": "smoke-segmentation-compressed.mp4",
+    "size": 564768,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/smoke-segmentation-compressed.mp4"
+  },
+  {
+    "name": "solar-panels-compressed.mp4",
+    "size": 1153560,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/solar-panels-compressed.mp4"
+  },
+  {
+    "name": "solutions_ci_demo.mp4",
+    "size": 270967,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/solutions_ci_demo.mp4"
+  },
+  {
+    "name": "solution_ci_parking_demo.mp4",
+    "size": 313635,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/solution_ci_parking_demo.mp4"
+  },
+  {
+    "name": "solution_ci_pose_demo.mp4",
+    "size": 58816,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/solution_ci_pose_demo.mp4"
+  },
+  {
+    "name": "solution_vertical_demo.mp4",
+    "size": 421130,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/solution_vertical_demo.mp4"
+  },
+  {
+    "name": "Squats.demo.video.mp4",
+    "size": 3522807,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Squats.demo.video.mp4"
+  },
+  {
+    "name": "storage-tanks-compressed.mp4",
+    "size": 1504886,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/storage-tanks-compressed.mp4"
+  },
+  {
+    "name": "strawberries.detection.mp4",
+    "size": 1624194,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/strawberries.detection.mp4"
+  },
+  {
+    "name": "teeth-detection.mp4",
+    "size": 376778,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/teeth-detection.mp4"
+  },
+  {
+    "name": "Ultralytics.YOLO+SAHI.mp4",
+    "size": 1695743,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/Ultralytics.YOLO%2BSAHI.mp4"
+  },
+  {
+    "name": "waste-compressed.mp4",
+    "size": 431909,
+    "browser_download_url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/waste-compressed.mp4"
+  }
+]

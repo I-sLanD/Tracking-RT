@@ -1,0 +1,80 @@
+[
+  {
+    "path": "third_party/torchreid/osnet.py",
+    "url": "https://raw.githubusercontent.com/KaiyangZhou/deep-person-reid/master/torchreid/models/osnet.py",
+    "sha256": "c7c1c29187d6330f859c91da229271531920464c7011aec13842a086b2263cae",
+    "size": 17037
+  },
+  {
+    "path": "third_party/torchreid/LICENSE",
+    "url": "https://raw.githubusercontent.com/KaiyangZhou/deep-person-reid/master/LICENSE",
+    "sha256": "3ac8ce2a83d170cb1c7c84152e0c1faca1f187794303514383960d2441716247",
+    "size": 1069
+  },
+  {
+    "path": "models/osnet_x0_25_msmt17.pth",
+    "url": "https://drive.usercontent.google.com/download?id=1Kkx2zW89jq_NETu4u42CFZTMVD5Hwm6e&export=download&confirm=t",
+    "sha256": "cf55163d78fc44c62c82f85ab62d39f10438679b5abe8c698ae08cfa84aa6e18",
+    "size": 9336983
+  },
+  {
+    "path": "third_party/downloads/eigen-3.4.0.zip",
+    "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.zip",
+    "sha256": "eba3f3d414d2f8cba2919c78ec6daab08fc71ba2ba4ae502b7e5d4d99fc02cda",
+    "size": 3704940
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/__init__.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/__init__.py",
+    "sha256": "46579317790c29d66d79c94f1d19bb138f69c352351a5a28a93a00bf762605dd",
+    "size": 27
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/kalman_filter.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/kalman_filter.py",
+    "sha256": "fa93e8ca7c8f70977ca7a0fe0b559365ccf1a73e3e6e8900ce634cf87b5d2dc0",
+    "size": 7787
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/linear_assignment.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/linear_assignment.py",
+    "sha256": "ea042c8bad0687f1d04c10c592c5c43d11c4082339de9b4fe982629807fe1cab",
+    "size": 7790
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/nn_matching.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/nn_matching.py",
+    "sha256": "717e5c135e9bdbe5819c0d41c7da79b2e5ca2f61918399dcd4cc21f94048746d",
+    "size": 5470
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/iou_matching.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/iou_matching.py",
+    "sha256": "1d2ce7f458ce487aea1fd87aa899587b58b8a34649863111c4272e2189cb98f1",
+    "size": 2830
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/track.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/track.py",
+    "sha256": "78dbc1961841713cf24d6397fd32b24f7b1624ce9f4b3def3e2df491fcfcc04e",
+    "size": 4976
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/tracker.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/tracker.py",
+    "sha256": "b214c584e8b0151533c74297e377d3f700869c9b2ed3d30573ac6bbf6adfe65f",
+    "size": 5291
+  },
+  {
+    "path": "third_party/deep_sort_reference/deep_sort/detection.py",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/deep_sort/detection.py",
+    "sha256": "b490bea7c4b469d23c298dd3d248ffd92362e664b9caf7a3d9242c4cc9c60f57",
+    "size": 1435
+  },
+  {
+    "path": "third_party/deep_sort_reference/LICENSE",
+    "url": "https://raw.githubusercontent.com/nwojke/deep_sort/master/LICENSE",
+    "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+    "size": 35141
+  }
+]

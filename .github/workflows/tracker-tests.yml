@@ -1,0 +1,33 @@
+name: DeepSORT algorithm tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tracker-tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Install Eigen
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes libeigen3-dev
+      - name: Configure algorithm tests
+        run: >-
+          cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+          -DBUILD_TESTING=ON -DEIGEN_INCLUDE_DIR=/usr/include/eigen3
+      - name: Build algorithm tests
+        run: cmake --build build --target tracker_tests --parallel 2
+      - name: Run algorithm tests
+        run: ctest --test-dir build --output-on-failure

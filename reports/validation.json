@@ -1,0 +1,172 @@
+{
+  "status": "passed",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+  "torch_version": "2.4.1+cpu",
+  "python_ort_version": "1.24.4",
+  "images": {
+    "bus": {
+      "cpp_vs_python_ort_max_abs_difference": 0.0,
+      "preprocess_mean_abs_difference": 0.000531326571945101,
+      "preprocess_p999_abs_difference": 0.00784313678741455,
+      "pytorch_comparison": {
+        "count": 5,
+        "min_iou": 0.9999994275144092,
+        "max_score_difference": 1.1869277953824309e-06,
+        "max_box_difference_pixels": 0.0001623651422733019
+      },
+      "cpu_gpu_comparison": {
+        "count": 5,
+        "min_iou": 0.9999995071676846,
+        "max_score_difference": 0.0,
+        "max_box_difference_pixels": 0.00010300000000018628
+      },
+      "coordinate_decode_comparison": {
+        "count": 5,
+        "min_iou": 0.9999999015573681,
+        "max_score_difference": 4.7167205807774337e-07,
+        "max_box_difference_pixels": 2.3017644821266003e-05
+      },
+      "classes": {
+        "bus": 1,
+        "person": 4
+      },
+      "cpu_timings_ms": {
+        "preprocess": {
+          "mean": 7.017597,
+          "p50": 6.9711,
+          "p95": 7.5685,
+          "max": 7.837
+        },
+        "inference": {
+          "mean": 22.239723,
+          "p50": 22.1784,
+          "p95": 24.7787,
+          "max": 28.2028
+        },
+        "postprocess": {
+          "mean": 0.004537,
+          "p50": 0.0042,
+          "p95": 0.0074,
+          "max": 0.0096
+        },
+        "pipeline": {
+          "mean": 29.261857,
+          "p50": 29.0431,
+          "p95": 32.0223,
+          "max": 35.6962
+        }
+      },
+      "gpu_timings_ms": {
+        "preprocess": {
+          "mean": 6.756397,
+          "p50": 6.6881,
+          "p95": 7.3203,
+          "max": 7.3471
+        },
+        "inference": {
+          "mean": 2.633657,
+          "p50": 2.5711,
+          "p95": 3.5358,
+          "max": 3.6172
+        },
+        "postprocess": {
+          "mean": 0.003907,
+          "p50": 0.0038,
+          "p95": 0.0055,
+          "max": 0.0074
+        },
+        "pipeline": {
+          "mean": 9.39396,
+          "p50": 9.333,
+          "p95": 10.3324,
+          "max": 10.3801
+        }
+      }
+    },
+    "zidane": {
+      "cpp_vs_python_ort_max_abs_difference": 0.0,
+      "preprocess_mean_abs_difference": 0.00014579824346583337,
+      "preprocess_p999_abs_difference": 0.003921570256352425,
+      "pytorch_comparison": {
+        "count": 3,
+        "min_iou": 0.9999989071981021,
+        "max_score_difference": 1.569557189773363e-07,
+        "max_box_difference_pixels": 0.00018348046874905322
+      },
+      "cpu_gpu_comparison": {
+        "count": 3,
+        "min_iou": 0.9999995705977831,
+        "max_score_difference": 1.0000000000287557e-06,
+        "max_box_difference_pixels": 6.099999995967664e-05
+      },
+      "coordinate_decode_comparison": {
+        "count": 3,
+        "min_iou": 0.9999999927642687,
+        "max_score_difference": 3.953742980788988e-07,
+        "max_box_difference_pixels": 3.8281245906546246e-07
+      },
+      "classes": {
+        "person": 2,
+        "tie": 1
+      },
+      "cpu_timings_ms": {
+        "preprocess": {
+          "mean": 5.17212,
+          "p50": 5.1448,
+          "p95": 5.3862,
+          "max": 5.3862
+        },
+        "inference": {
+          "mean": 20.42704,
+          "p50": 19.7887,
+          "p95": 23.9265,
+          "max": 23.9265
+        },
+        "postprocess": {
+          "mean": 0.00444,
+          "p50": 0.0038,
+          "p95": 0.0093,
+          "max": 0.0093
+        },
+        "pipeline": {
+          "mean": 25.6036,
+          "p50": 24.9778,
+          "p95": 29.0122,
+          "max": 29.0122
+        }
+      },
+      "gpu_timings_ms": {
+        "preprocess": {
+          "mean": 5.0458,
+          "p50": 4.9822,
+          "p95": 5.3614,
+          "max": 5.3614
+        },
+        "inference": {
+          "mean": 2.65882,
+          "p50": 2.5223,
+          "p95": 3.4169,
+          "max": 3.4169
+        },
+        "postprocess": {
+          "mean": 0.00387,
+          "p50": 0.0036,
+          "p95": 0.0074,
+          "max": 0.0074
+        },
+        "pipeline": {
+          "mean": 7.70849,
+          "p50": 7.6171,
+          "p95": 8.3008,
+          "max": 8.3008
+        }
+      }
+    }
+  },
+  "scope": "Two official still images; numeric/output consistency and in-memory repeated-image timing. No tracking, webcam, TensorRT or Jetson validation.",
+  "profile_provider_events": {
+    "DmlExecutionProvider": 16,
+    "CPUExecutionProvider": 4
+  }
+}

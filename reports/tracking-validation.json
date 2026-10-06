@@ -1,0 +1,175 @@
+{
+  "synthetic": {
+    "frames": 115,
+    "track_states_compared": 248,
+    "ids_and_lifecycle_equal": true,
+    "mean_max_abs": 2.220446049250313e-16,
+    "covariance_max_abs": 2.2737367544323206e-13,
+    "scenarios": [
+      "crossing",
+      "reversed detection order",
+      "4/7-frame misses",
+      "tentative false detection",
+      "max_age expiry",
+      "re-entry",
+      "shrinking lost-track size prediction"
+    ]
+  },
+  "cpu": {
+    "frames": 180,
+    "all_associations_lifecycles_equal_to_upstream": true,
+    "id_mapping_policy": "bind at birth detection once; never remap an existing ID",
+    "literal_id_numbers_equal": false,
+    "box_max_abs_px": 3.6823627169724205e-07,
+    "reid": {
+      "pytorch_embedding_cosine": 1.0,
+      "python_ort_max_abs": 0.0,
+      "opencv_crop_max_abs_normalized": 0.01750713586807251
+    }
+  },
+  "dml": {
+    "frames": 180,
+    "all_associations_lifecycles_equal_to_upstream": true,
+    "id_mapping_policy": "bind at birth detection once; never remap an existing ID",
+    "literal_id_numbers_equal": false,
+    "box_max_abs_px": 5.276079662053235e-07,
+    "reid": {
+      "pytorch_embedding_cosine": 1.0,
+      "python_ort_max_abs": 2.2172927856445312e-05,
+      "opencv_crop_max_abs_normalized": 0.01750713586807251
+    }
+  },
+  "cpu_dml": {
+    "box_max_abs_px": 0.0001220999999986816,
+    "score_max_abs": 4.339209999992821e-05,
+    "feature_min_cosine": 0.9999998807907104,
+    "all_track_assignments_equal": true
+  },
+  "gpu_profiles": {
+    "detector": {
+      "DmlExecutionProvider": 732,
+      "CPUExecutionProvider": 183
+    },
+    "reid": {
+      "DmlExecutionProvider": 1087
+    }
+  },
+  "timings": {
+    "cpu": {
+      "detector_pre": {
+        "mean": 7.821665,
+        "p50": 7.3265,
+        "p95": 10.585,
+        "max": 10.9321
+      },
+      "detector_infer": {
+        "mean": 27.948505,
+        "p50": 28.7079,
+        "p95": 35.0494,
+        "max": 40.3302
+      },
+      "detector_post": {
+        "mean": 0.003316666667,
+        "p50": 0.0032,
+        "p95": 0.0044,
+        "max": 0.0095
+      },
+      "reid_pre": {
+        "mean": 4.964032778,
+        "p50": 4.9101,
+        "p95": 7.8083,
+        "max": 12.0448
+      },
+      "reid_infer": {
+        "mean": 48.56111111,
+        "p50": 53.3326,
+        "p95": 87.2633,
+        "max": 110.6892
+      },
+      "association": {
+        "mean": 0.1365738889,
+        "p50": 0.1401,
+        "p95": 0.306,
+        "max": 0.437
+      },
+      "pipeline": {
+        "mean": 89.43800444,
+        "p50": 96.5149,
+        "p95": 134.3221,
+        "max": 166.1557
+      },
+      "png_decode": {
+        "mean": 8.874034444,
+        "p50": 8.3623,
+        "p95": 12.0005,
+        "max": 12.3517
+      }
+    },
+    "dml": {
+      "detector_pre": {
+        "mean": 7.434956111,
+        "p50": 6.77,
+        "p95": 11.5325,
+        "max": 15.3698
+      },
+      "detector_infer": {
+        "mean": 4.300201667,
+        "p50": 3.2109,
+        "p95": 7.5612,
+        "max": 9.7708
+      },
+      "detector_post": {
+        "mean": 0.002640555556,
+        "p50": 0.0022,
+        "p95": 0.0055,
+        "max": 0.0141
+      },
+      "reid_pre": {
+        "mean": 5.310580556,
+        "p50": 4.4825,
+        "p95": 11.402,
+        "max": 16.5381
+      },
+      "reid_infer": {
+        "mean": 5.785693333,
+        "p50": 3.7568,
+        "p95": 13.2512,
+        "max": 16.1107
+      },
+      "association": {
+        "mean": 0.1474455556,
+        "p50": 0.1233,
+        "p95": 0.4219,
+        "max": 0.6995
+      },
+      "pipeline": {
+        "mean": 22.98409444,
+        "p50": 19.6653,
+        "p95": 39.0336,
+        "max": 46.4326
+      },
+      "png_decode": {
+        "mean": 9.412720556,
+        "p50": 8.1924,
+        "p95": 13.7577,
+        "max": 18.8988
+      }
+    }
+  },
+  "scope": "Desktop Windows CPU/DirectML initial baseline. Public sample has no ground truth: no IDF1/HOTA/MOTA or Jetson performance claim. Offline Python video IO, C++ detection/ReID/tracking. Unprofiled runs used for timing.",
+  "provenance": {
+    "models": {
+      "yolo26n.onnx": "2fd3dfc3aa2b885319035ea6aefe53aa0683bfa4d5f82296b43f371017e2bce9",
+      "osnet_x0_25_msmt17.onnx": "83bf25851879906bdb7ebc31c93ffab3faca233ae0bd8c69c370ad1b89c48bd8"
+    },
+    "sample_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+    "packages": {
+      "torch": "2.4.1+cpu",
+      "onnxruntime": "1.24.4",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "opencv-python": "4.11.0.86"
+    }
+  },
+  "status": "passed"
+}

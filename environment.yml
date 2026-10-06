@@ -1,0 +1,7 @@
+name: jetson-perception
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+# After creation: install the official CPU Torch wheel, then requirements.txt.

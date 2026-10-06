@@ -1,0 +1,44 @@
+[
+  {
+    "path": "models/yolo26n.pt",
+    "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt",
+    "sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+    "size": 5544453
+  },
+  {
+    "path": "assets/bus.jpg",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/main/ultralytics/assets/bus.jpg",
+    "sha256": "c02019c4979c191eb739ddd944445ef408dad5679acab6fd520ef9d434bfbc63",
+    "size": 137419
+  },
+  {
+    "path": "assets/zidane.jpg",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/main/ultralytics/assets/zidane.jpg",
+    "sha256": "16d73869e3267a7d4ed00de8e860833bd1657c1b252e94c0c348277adc7b6edb",
+    "size": 50427
+  },
+  {
+    "path": "third_party/downloads/llvm-mingw.zip",
+    "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20260922/llvm-mingw-20260922-ucrt-x86_64.zip",
+    "sha256": "e3ad77d117a4bea19a7a3b333341824d79a5a371004a10e25b8504e7b3047666",
+    "size": 190725905
+  },
+  {
+    "path": "third_party/downloads/onnxruntime-directml.nupkg",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.ml.onnxruntime.directml/1.24.4/microsoft.ml.onnxruntime.directml.1.24.4.nupkg",
+    "sha256": "57e9f11b73437bef7a309496135d4c1f96b1a8e9ddba60013fa27bfc1d788681",
+    "size": 12458649
+  },
+  {
+    "path": "third_party/include/stb_image.h",
+    "url": "https://raw.githubusercontent.com/nothings/stb/master/stb_image.h",
+    "sha256": "594c2fe35d49488b4382dbfaec8f98366defca819d916ac95becf3e75f4200b3",
+    "size": 283010
+  },
+  {
+    "path": "third_party/include/stb_image_write.h",
+    "url": "https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h",
+    "sha256": "cbd5f0ad7a9cf4468affb36354a1d2338034f2c12473cf1a8e32053cb6914a05",
+    "size": 71221
+  }
+]

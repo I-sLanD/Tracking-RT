@@ -1,0 +1,9 @@
+# Install the CPU reference PyTorch separately from its official wheel index.
+ultralytics==8.4.173
+onnxruntime==1.24.4
+onnx>=1.17,<2
+numpy>=1.26,<2
+opencv-python==4.11.0.86
+cmake>=3.20
+ninja
+scipy==1.15.3

@@ -1,0 +1,20 @@
+{
+  "os": {
+    "Caption": "Microsoft Windows 11 专业版",
+    "Version": "10.0.26200",
+    "OSArchitecture": "64 位"
+  },
+  "cpu": {
+    "Name": "12th Gen Intel(R) Core(TM) i7-12700KF"
+  },
+  "gpu": {
+    "Name": "NVIDIA GeForce RTX 4080",
+    "DriverVersion": "32.0.16.1692"
+  },
+  "conda_environment": "jetson-perception",
+  "conda_python": "C:\\Users\\84467\\.conda\\envs\\jetson-perception\\python.exe",
+  "compiler": "LLVM-MinGW 20260922 / Clang 23.1.2",
+  "build_type": "RelWithDebInfo",
+  "debugger_check": "LLDB breakpoint at wmain, backtrace, continue, exit 0",
+  "windows_directml_version": "1.15.5+250417-0100.1.os-germanium.7c460ce"
+}

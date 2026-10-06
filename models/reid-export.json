@@ -1,0 +1,33 @@
+{
+  "architecture": "osnet_x0_25",
+  "training_dataset": "MSMT17 (combineall=True)",
+  "model_zoo": "https://kaiyangzhou.github.io/deep-person-reid/MODEL_ZOO",
+  "input_shape": [
+    1,
+    3,
+    256,
+    128
+  ],
+  "output_shape": [
+    1,
+    512
+  ],
+  "dtype": "float32",
+  "opset": 17,
+  "preprocessing": "clipped integer xyxy crop; RGB bilinear resize 128x256; /255; ImageNet mean/std; NCHW",
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "postprocessing": "L2 normalize 512-dimensional embedding in C++",
+  "batch": "static 1; sequential per-person baseline",
+  "pytorch_onnx_max_abs": 0.00010585784912109375,
+  "weights_sha256": "cf55163d78fc44c62c82f85ab62d39f10438679b5abe8c698ae08cfa84aa6e18",
+  "onnx_sha256": "83bf25851879906bdb7ebc31c93ffab3faca233ae0bd8c69c370ad1b89c48bd8"
+}

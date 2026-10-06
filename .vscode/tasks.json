@@ -1,0 +1,147 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C++: build",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/build.ps1"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "YOLO26: export official reference",
+      "type": "process",
+      "command": "E:/anaconda3/Scripts/conda.exe",
+      "args": [
+        "run",
+        "--no-capture-output",
+        "-n",
+        "jetson-perception",
+        "python",
+        "${workspaceFolder}/tools/export_model.py"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "YOLO26: C++ CPU",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/run.ps1",
+        "-Provider",
+        "cpu"
+      ],
+      "dependsOn": "C++: build",
+      "problemMatcher": []
+    },
+    {
+      "label": "YOLO26: C++ GPU (DirectML)",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/run.ps1",
+        "-Provider",
+        "dml"
+      ],
+      "dependsOn": "C++: build",
+      "problemMatcher": []
+    },
+    {
+      "label": "YOLO26: full validation",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/validate.ps1"
+      ],
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DeepSORT: setup models and dependencies",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/setup_tracking.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "DeepSORT: C++ CPU",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/track.ps1",
+        "-Provider",
+        "cpu"
+      ],
+      "problemMatcher": [],
+      "dependsOn": "C++: build"
+    },
+    {
+      "label": "DeepSORT: C++ GPU (DirectML)",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/track.ps1",
+        "-Provider",
+        "dml"
+      ],
+      "problemMatcher": [],
+      "dependsOn": "C++: build"
+    },
+    {
+      "label": "DeepSORT: full validation",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/validate_tracking.ps1"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    }
+  ]
+}

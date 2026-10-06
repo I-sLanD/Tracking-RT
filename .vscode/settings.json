@@ -1,0 +1,25 @@
+{
+  "python.defaultInterpreterPath": "C:/Users/84467/.conda/envs/jetson-perception/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "C_Cpp.default.compilerPath": "${workspaceFolder}/third_party/llvm-mingw-20260922-ucrt-x86_64/bin/x86_64-w64-mingw32-clang++.exe",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.intelliSenseMode": "windows-clang-x64",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "cmake.cmakePath": "C:/Users/84467/.conda/envs/jetson-perception/Scripts/cmake.exe",
+  "cmake.generator": "Ninja",
+  "cmake.configureOnOpen": false,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureSettings": {
+    "CMAKE_CXX_COMPILER": "${workspaceFolder}/third_party/llvm-mingw-20260922-ucrt-x86_64/bin/x86_64-w64-mingw32-clang++.exe",
+    "CMAKE_MAKE_PROGRAM": "C:/Users/84467/.conda/envs/jetson-perception/Scripts/ninja.exe"
+  },
+  "lldb-dap.executable-path": "${workspaceFolder}/third_party/llvm-mingw-20260922-ucrt-x86_64/bin/lldb-dap.exe",
+  "files.encoding": "utf8",
+  "python-envs.pythonProjects": [
+    {
+      "path": ".",
+      "envManager": "ms-python.python:conda",
+      "packageManager": "ms-python.python:conda"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug DeepSORT C++ (CPU)",
+      "type": "lldb-dap",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/yolo26_track.exe",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--model",
+        "${workspaceFolder}/models/yolo26n.onnx",
+        "--reid",
+        "${workspaceFolder}/models/osnet_x0_25_msmt17.onnx",
+        "--runtime",
+        "${workspaceFolder}/third_party/onnxruntime-directml/runtimes/win-x64/native/onnxruntime.dll",
+        "--frames",
+        "${workspaceFolder}/assets/pedestrian-frames",
+        "--fps",
+        "10",
+        "--limit",
+        "20",
+        "--output",
+        "${workspaceFolder}/output/tracking-debug",
+        "--provider",
+        "cpu",
+        "--warmup",
+        "0"
+      ],
+      "preLaunchTask": "C++: build"
+    },
+    {
+      "name": "Debug YOLO26 C++ (CPU)",
+      "type": "lldb-dap",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/yolo26_verify.exe",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--model",
+        "${workspaceFolder}/models/yolo26n.onnx",
+        "--image",
+        "${workspaceFolder}/assets/bus.jpg",
+        "--runtime",
+        "${workspaceFolder}/third_party/onnxruntime-directml/runtimes/win-x64/native/onnxruntime.dll",
+        "--labels",
+        "${workspaceFolder}/models/classes.txt",
+        "--output",
+        "${workspaceFolder}/output/debug",
+        "--provider",
+        "cpu",
+        "--iterations",
+        "1",
+        "--warmup",
+        "0"
+      ],
+      "preLaunchTask": "C++: build"
+    }
+  ]
+}
