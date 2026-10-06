@@ -140,7 +140,7 @@ python tools/export_model.py
 
 `environment.yml` 管理 Python 版本；完成安装后会保存 `requirements-lock.txt` 和 Conda 明细用于记录本次环境。
 
-本机 GPU 验证使用 Windows DirectML。其他 Windows 设备需要兼容的 DirectX 12 / DirectML 环境；详见 [ONNX Runtime DirectML 要求](https://onnxruntime.ai/docs/execution-providers/DirectML-ExecutionProvider.html)。Linux CMake 路径使用同一 C API 加载 `.so`，但尚未在 Linux 或 Jetson 上验证。
+本机 GPU 验证使用 Windows DirectML。其他 Windows 设备需要兼容的 DirectX 12 / DirectML 环境；详见 [ONNX Runtime DirectML 要求](https://onnxruntime.ai/docs/execution-providers/DirectML-ExecutionProvider.html)。DeepSORT 算法测试已在 GitHub Actions 的 Ubuntu 24.04 环境通过。完整 YOLO26 / OSNet 推理链路及 Jetson 后端尚未在 Linux 上验证；Linux CMake 路径预留了同一 C API 的 `.so` 加载方式。
 
 ## 验证与计时边界
 

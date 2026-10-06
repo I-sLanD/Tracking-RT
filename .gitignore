@@ -36,3 +36,6 @@ __pycache__/
 !.env.example
 *.pem
 *.key
+
+# Personal Git reference: keep locally, outside repository tracking.
+/docs/git-commands.md

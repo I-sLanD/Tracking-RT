@@ -29,7 +29,7 @@
 | MSVC | 2026-10-06 的本机检查未发现 Visual Studio 安装定位工具或 `cl` 命令 |
 | nndeploy 上游版本 | `1c9e2d508bf82fd8ee47656897906d133ebf7f3d`，Apache-2.0 |
 | 现有算法检查 | 运行现有 `build/tracker_tests.exe`，六组算法检查通过；不是 nndeploy 验证 |
-| 版本管理 | 当前项目不是 Git 仓库；设计文件保存到项目内，未创建提交 |
+| 版本管理 | 已建立本地 Git 与 GitHub `I-sLanD/Tracking-RT` 仓库，C++ 基线已同步至 `main`；DeepSORT 算法测试的 Ubuntu CI 已通过。个人 Git 指令笔记仅在本地保留 |
 
 nndeploy 上游 Windows CI 使用 Visual Studio 2022，其 ORT 配置路径中可见 CUDA provider 设置，未见 DirectML provider 设置。这两项是实际接入差异，不能将上游平台支持等同于本机兼容性已经通过。
 
